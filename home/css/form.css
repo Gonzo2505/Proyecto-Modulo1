@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: bisque;  
+}
+
+header {
+    background-color: darkgreen;
+    color: white;    
+    border-radius: 50px;
+}
+
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 50px;
+    /*gap: 1em;*/   
+    
+}
+
+#partes {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+header a{
+    color: white;
+    }
+
+main {
+    display: grid;
+    margin: 20px auto;
+    width: 600px;
+    gap: 1em;
+    /*float: center;*/
+    background-color: ivory;
+}
+
+button {
+    color: ghostwhite;
+    background-color: green;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+}
+
+h1 {
+    margin-left: 20px;
+    color: brown;
+}
+
+p {
+    margin-left: 20px;
+    font-family: "Lateef", sans-serif;
+}
+
+#text_nombre_receta{
+    margin-left: 20px; 
+    color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#nombre_receta {
+   margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+     width: 550px;
+    background-color: silver;
+    margin-bottom: 10px;
+     
+}
+
+#text_tiempo_preparacion{
+    margin-left: 20px;    
+    color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#tiempo_preparacion {
+    margin-right: 10px;
+    margin-left: 20px;
+     width: 550px;
+    background-color: silver;
+    margin-bottom: 10px;
+    margin-top: 10px;
+     
+}
+
+#text_ingredientes{
+    margin-left: 20px;    
+    color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#ingredientes {
+    margin-right: 10px;
+    margin-left: 20px;
+    height: 100px;
+    width: 550px;
+    background-color: silver;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#text_instrucciones{
+    margin-left: 20px;    
+    color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#instrucciones {
+    margin-right: 10px;
+    margin-left: 20px;
+    height: 100px;
+    width: 550px;
+    background-color: silver;
+    margin-bottom: 10px;
+    margin-top: 10px;
+      
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;    
+    border-radius: 50px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 50px;
+    gap: 1em;
+   /* padding-left: 10px;*/
+}
+
+

@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: darkgreen;
+    color: white;    
+    border-radius: 50px;
+}
+
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: 50px;
+    /*gap: 1em;*/   
+    
+}
+
+#partes {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+header a{
+    color: white;
+}
+    
+h2 {
+    color: brown;
+}
+
+p {
+    font-family: "Lateef", sans-serif;
+}
+
+ .banner {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 250px;
+    margin-bottom: 2px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 325px;
+
+    }
+
+.texto-encima {
+    position: absolute;
+    top: 13%;
+    left: 47%;  
+    color: white;
+    font-size:45px;
+    /*font-family: "Lateef", sans-serif;*/
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+   /*font-family:Verdana, Geneva, Tahoma, sans-serif;*/
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.foto {
+    /*overflow: hidden;*/
+    /*height: 100%;*/  
+    /*display: flex;*/
+    /*justify-content: center;*/
+   /* align-items: center;  */
+    padding: 10px;
+          
+}
+
+.foto img{
+    width: 700px;
+    height: 300px;  
+    object-fit: cover;
+    border: solid;
+ } 
+
+ .celda_arepa {
+    /*height: 100%;*/
+    /*display: flex;*/
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 16px;
+    border-radius: 50px;
+       
+  }
+
+ .celda_arepa img{
+    width: 90%;
+    height: 60%;  
+    /*vertical-align: text-bottom;*/
+     object-fit: cover;
+     
+ } 
+
+ .celda_arepa a {
+    color: brown;
+    background-color: beige;
+    
+   }
+
+ .celda_arepa h1 {
+    background-color: beige;
+    
+    }
+
+ .celda_arepa ul {
+    background-color: beige;
+    /*text-align: center;*/
+     }
+
+ .celda_arepa li {
+    background-color: beige;
+    /*text-align: center;*/
+    font-size: small;
+    
+ }
+
+ .mote_queso { 
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 16px;
+    border-radius: 50px;
+    
+ }
+
+ .mote_queso img {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+ }
+
+.mote_queso h1 {
+    background-color: beige;
+}
+.mote_queso a {
+    color: brown;
+    background-color: beige;
+}
+
+.mote_queso ul {
+    background-color: beige;
+    /*text-align: center;*/
+     }
+
+ .mote_queso li {
+    background-color: beige;
+    /*text-align: center;*/
+    font-size: small;
+ }
+
+ .cayeye {
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 16px;
+    border-radius: 50px;
+ }
+
+ .cayeye img {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+ }
+
+.cayeye h1 {
+    background-color: beige;
+}
+ .cayeye a {
+    background-color: beige;
+    color: brown;
+ }
+
+ .cayeye ul {
+    background-color: beige;
+    /*text-align: center;*/
+     }
+
+ .cayeye li {
+    background-color: beige;
+    /*text-align: center;*/
+    font-size: small;
+ }
+
+ .pescado {
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 16px;
+    border-radius: 50px;
+ }
+
+ .pescado img {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+ }
+
+ .pescado h1 {
+    background-color: beige;
+    
+}
+ .pescado a {
+    background-color: beige;
+    color: brown;
+ }
+
+ .pescado ul {
+    background-color: beige;
+    /*text-align: center;*/
+     }
+
+ .pescado li {
+    background-color: beige;
+    /*text-align: center;*/
+    font-size: small;
+ }
+
+ .carimañola {
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 16px;
+    border-radius: 50px;
+ }
+
+ .carimañola img {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+ }
+
+.carimañola h1 {
+    background-color: beige;
+}
+
+.carimañola a {
+    color: brown;
+    background-color: beige;
+}
+
+.carimañola ul {
+    background-color: beige;
+    /*text-align: center;*/
+     }
+
+ .carimañola li {
+    background-color: beige;
+    /*text-align: center;*/
+    font-size: small;
+ }
+
+ .posta {
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 16px;
+    border-radius: 50px;
+ }
+
+.posta img {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.posta h1 {
+    background-color: beige;
+}
+
+.posta a {
+    color: brown;
+    background-color: beige;
+}
+
+.posta ul {
+    background-color: beige;
+    /*text-align: center;*/
+     }
+
+ .posta li {
+    background-color: beige;
+    /*text-align: center;*/
+    font-size: small;
+ }
+
+ /*.espacio{
+    height: 20px;
+ }*/
+
+.receta1 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 300px 300px;
+    gap: 1em;
+    background-color: bisque;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;    
+    border-radius: 50px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 50px;
+    gap: 1em;
+    padding-left: 10px;
+    
+}

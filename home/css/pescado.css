@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@400;700&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: bisque;
+    /*overflow: hidden;*/
+}
+
+#grid-container {
+    width: 80%;
+    height: auto;
+    display: grid;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 10%;
+    justify-content: center;    
+    grid-template-rows: 1000x;   
+    grid-template-columns:  2fr 1fr;
+         
+}
+
+header {
+    background-color: darkgreen;
+    color: white;    
+    border-radius: 50px;
+}
+
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: 50px;
+    /*gap: 1em;*/   
+    
+}
+
+#partes {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+header a{
+    color: white;
+    }
+
+div img {
+    width: 100%;
+}
+
+h2 {
+    color: brown;
+}
+
+h3 {
+    color: brown;
+}
+
+h4 {
+    color: brown;
+}
+
+p {
+    font-family: "Lateef", sans-serif;
+}
+
+main {
+    background-color: ivory;     
+    border:20px solid whitesmoke;
+    /*grid-area: 3 / 1 / 1 / 3;*/
+    border-radius: 50px;
+}
+
+aside {
+    background-color: ivory;
+    border:20px solid whitesmoke;
+    /*grid-area: 2 / 4 / 3 / 5; */
+    border-radius: 50px;
+}
+
+aside img {
+    padding-top:  200px;
+}
+
+aside table{
+    width: 300px;
+    border: 2px solid black;
+    border-collapse:separate;
+}
+
+aside table td {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;   
+    border-radius: 50px; 
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 50px;
+    gap: 1em;
+    padding-left: 10px;
+    
+}
